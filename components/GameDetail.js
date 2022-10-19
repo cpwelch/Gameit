@@ -145,6 +145,12 @@ const Detail = styled(motion.div)`
   color: black;
   overflow-y: hidden;
   z-index: 6;
+  @media (max-width: 768px) {
+    left: 2.5%;
+    top: 5%;
+    width: 95%;
+    padding: 2rem 2rem;
+  }
   img {
     width: 100%;
   }
